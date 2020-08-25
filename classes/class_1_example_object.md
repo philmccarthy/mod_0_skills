@@ -7,7 +7,7 @@ item_name = ["oak fired carrots", "spinach dip", "oak fired octoput"]
 item_ingredients = {
   "oak fired carrots": "herb yogurt, fennel herb salad, pistachio crumble",
   "spinach dip": "goat cheese, crispy prosciutto, cherry peppers",
-  "oak fired octoput": "white bean & celery salad, spanish chorizo, sherry vinaigrette, red pepper sauce"
+  "oak fired octopus": "white bean & celery salad, spanish chorizo, sherry vinaigrette, red pepper sauce"
 }
 inventory = {"goat cheese": 101, "cherry peppers": 77, "spanish chorizo": 172}
 is_open = true
@@ -18,5 +18,5 @@ is_open = true
 change_description  # Modify string restaurant_description
 order_item  # Order "oak fired carrots"
 open_store  # Modify is_open to true
-restock  # Modify values stores in the inventory hash
+restock  # Modify values stored in the inventory hash
 ```
