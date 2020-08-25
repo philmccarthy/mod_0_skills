@@ -1,0 +1,9 @@
+food = "avocado"
+is_delicious = true
+food = "pizza"
+num2 = 17
+num7 = 6
+quotient = num7/num2
+songs = ["Happy song", "Sad song", "Mas o menos song"]
+songs.delete_at(0)
+food.length
