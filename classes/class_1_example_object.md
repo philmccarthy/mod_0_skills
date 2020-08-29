@@ -1,4 +1,4 @@
-# Instance of Restaurant Class: guard_and_grace_dinner_menu
+# Instance of Menu Class: guard_and_grace_dinner_menu
 
 ## Attributes
 ```
@@ -9,14 +9,12 @@ item_ingredients = {
   "spinach dip": "goat cheese, crispy prosciutto, cherry peppers",
   "oak fired octopus": "white bean & celery salad, spanish chorizo, sherry vinaigrette, red pepper sauce"
 }
-inventory = {"goat cheese": 101, "cherry peppers": 77, "spanish chorizo": 172}
-is_open = true
+font = "Cabin"
 ```
 
 ## Methods
 ```
-change_description  # Modify string restaurant_description
-order_item  # Order "oak fired carrots"
-open_store  # Modify is_open to true
-restock  # Modify values stored in the inventory hash
+change_description = "Guard and Grace is a good Denver restaurant, and this is a less verbose description of it."  # Modify string restaurant_description
+order_item[0] = "oak fired carrots"  # Order "oak fired carrots"
+delete_item("oak fired carrots") = "herb yogurt, fennel herb salad, pistachio crumble"  # Delete the key-value pair in the hash. Return value of delete_item(key) is the value from hash whose key is equal to (key).
 ```
