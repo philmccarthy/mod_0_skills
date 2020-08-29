@@ -12,6 +12,6 @@ font (string)
 ```
 change_description (Modify restaurant_description string)
 order_item (Use item_name to place order)
-delete_ingredient (Remove a key-value pair from the hash)
+delete_item (Remove a key-value pair from the hash)
 change_font (Modify the font used within the menu)
 ```
